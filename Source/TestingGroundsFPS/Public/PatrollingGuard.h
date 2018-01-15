@@ -17,6 +17,6 @@ class TESTINGGROUNDSFPS_API APatrollingGuard : public ATP_ThirdPersonCharacter
 	
 public:	
 	UPROPERTY(EditInstanceOnly, Category = "Patrol Route")
-	TArray<AActor*> PatrolPointsCPP;		// TODO remove public access or add getter method
+	TArray<AActor*> PatrolPointsCP;		// TODO remove public access or add getter method
 	
 };
